@@ -132,17 +132,17 @@
 }
 .footer-container {
     background-color: black;
-    width: 480px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: right;
+    justify-items: end;
+    flex-wrap: wrap;
+    align-items: ;
 }
 
 .footer-container div {
-    margin: 5px;
-    background-color: aqua;
    
-}
-.imagen-5 {
-    padding-left: 240px;
+    padding-left: 100px;
+    background-color: brown;
+   
 }
