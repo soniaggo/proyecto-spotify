@@ -1,6 +1,6 @@
 @use 'layout/premiun';
 
-.main-container {
+.main__container {
     align-items: start;
     margin-left: 1vw;
     margin-right: 3vw;
@@ -12,14 +12,14 @@
     
    
 }
-.main-container img {
+.main__container-img {
     
     width: 15vw;
     height: 15vh;
 }
 
 
-.main-title {
+.main__title {
     margin-top: 10vw;
     margin-left: 25vw;
     font-size: 1.6;
@@ -29,7 +29,7 @@
     justify-content: flex-start;
 }
 
-.main-div1 {
+.main__div1 {
  
     display: inline-block;
     margin-left: 20px;
@@ -41,7 +41,7 @@
     
 }
 
-.main-div2 {
+.main__div2 {
     font-size: 1.1rem;
     margin-top: 100px;
     display: inline-block;
@@ -51,7 +51,7 @@
     width: 50vw;
 }
 
-.main-div3 {
+.main__div3 {
  
     display: inline-block;
     margin-left: 20px;
@@ -62,7 +62,7 @@
     justify-content: flex-start; 
 }
 
-.main-div4 {
+.main__div4 {
     
     font-size: 1.1rem;
     margin-top: 100px;
@@ -73,7 +73,7 @@
     width: 50vw;
 }
 
-.main-div5 {
+.main__div5 {
     display: inline-block;
     margin-left: 20px;
     padding-left: 20px;
@@ -82,7 +82,7 @@
     height: 13vh;
     justify-content: flex-start;
 }
-.main-div6 {
+.main__div6 {
     font-size: 1.1rem;
     margin-top: 100px;
     display: inline-block;
@@ -91,7 +91,7 @@
     padding-left: 40px;
     width: 50vw; 
 }
-    .main-div7 {
+    .main__div7 {
         display: inline-block;
         margin-left: 20px;
         padding-left: 20px;
@@ -101,7 +101,7 @@
         justify-content: flex-start;  
         margin-top: 100px;
     }
-    .main-div8 {
+    .main__div8 {
     display: inline-block;
     margin-left: 20px;
     padding-left: 20px;
@@ -114,20 +114,20 @@
     @media (min-width: 768px) and (max-width: 1024px){
 
     
-       .main-container img {
+       .main__container-img {
             
             width: 10vw;
             height: 10vh;
         } 
         
         
-        .main-title {
+        .main__title {
             margin-top: 10vw;
             margin-left: 25vw;
             font-size: 1.6;
         }
         
-        .main-div1 {
+        .main__div1 {
             justify-content: end;
             display: inline-block;
             margin-left: 20px;
@@ -136,7 +136,7 @@
             height: 13vh;
         }
         
-        .main-div2 {
+        .main__div2 {
         
             margin-top: 100px;
             display: inline-block;
@@ -145,7 +145,7 @@
             width: 25vw;
         }
         
-        .main-div3 {
+        .main__div3 {
             margin-top: 100px;
             display: inline-block;
             margin-left: 5px;
@@ -153,7 +153,7 @@
             width: 15vw;
         }
         
-        .main-div4 {
+        .main__div4 {
           
             margin-top: 100px;
             display: inline-block;
@@ -163,7 +163,7 @@
             width: 25vw;
             
         }
-        .main-div5 {
+        .main__div5 {
             margin: top 50px; 
             display: inline-block;
             margin-left: 20px;
@@ -171,7 +171,7 @@
             padding-left: 20px;
             width: 15vw;
         }
-        .main-div6 {
+        .main__div6 {
             margin-top: 50px;
             display: inline-block;
             margin-right: 10px;
@@ -179,7 +179,7 @@
             padding-left: 20px;
             width: 25vw;
         }
-        .main-div7 {
+        .main__div7 {
             margin-top: 50px;
             display: inline-block;
             margin-left: 10px;
@@ -187,7 +187,7 @@
             padding-left: 20px;
             width: 15vw;
         }       
-        .main-div8 {
+        .main__div8 {
             margin-top: 50px;
             display: inline-block;
             margin-right: 5px;
