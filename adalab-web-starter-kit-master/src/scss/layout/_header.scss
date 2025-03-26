@@ -1,1 +1,102 @@
+.header__franja-negra {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
 
+.header__franja-negra img {
+    height: 40px;
+}
+
+.header__menu-texto {
+    color: white;
+    display: none;
+    width: 60vw;
+    list-style: none;
+    justify-content: space-between;
+    font-weight: 600;
+    align-items: center;
+}
+
+
+.header__hero {
+    background-color: #3ea1e9;
+    height: auto;
+    /*para que el texto siempre esté encima del azul y este se vaya acomodando a su tamaño*/
+    width: 100%;
+    color: white;
+    padding: 10px;
+    padding-top: 150px;
+    display: flex;
+}
+
+.header__hero h1 {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-top: 35px;
+}
+
+.header__button {
+    background-color: #4db73b;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    border: 0;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.header__terminos {
+    font-size: 1rem;
+}
+
+.header__hero-content {
+
+    align-items: baseline;
+    height: auto;
+}
+
+/* como hago para que se puedan alinear los elementos abajo del div azul*/
+
+@media (min-width: 700px) {
+    .header__hamburguesa {
+        display: none;
+    }
+
+    .header__menu-texto {
+        display: flex;
+    }
+
+    .header__hero {
+        background-image: url('../images/premium_dancer.png');
+        object-fit: height;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position-x: right;
+        padding-top: 50px;
+    }
+
+    .header__button {
+        width: 150px;
+    }
+
+    .header__hero h1 {
+        font-size: 3rem;
+        width: 80vw;
+    }
+
+    .header__hero h2 {
+        font-size: 1.2rem;
+        width: 80vw;
+    }
+
+    .header__hero p {
+        width: 80vw;
+    }
+}
